@@ -189,7 +189,7 @@ h2 {
   min-width: 0;
   overflow: hidden;
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
   padding: 22px clamp(16px, 2.4vw, 30px);
   background: linear-gradient(180deg, #ffffff 0%, #eef3f6 100%);
 }
@@ -226,6 +226,23 @@ select {
   border-radius: 8px;
   background: var(--panel-strong);
   box-shadow: 0 12px 28px rgba(34, 49, 63, 0.08);
+}
+
+.attribution {
+  margin: 10px 2px 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.attribution a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
 }
 
 table {

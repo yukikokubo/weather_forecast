@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import mimetypes
+import os
 import pathlib
 import sqlite3
 import urllib.parse
@@ -13,7 +14,8 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 ROOT = pathlib.Path(__file__).parent.resolve()
 STATIC_DIR = ROOT / "static"
 DB_PATH = ROOT / "weather.db"
-PORT = 8000
+HOST = os.environ.get("HOST", "127.0.0.1")
+PORT = int(os.environ.get("PORT", "8000"))
 JST = timezone(timedelta(hours=9))
 
 DAILY_FIELDS = [
@@ -238,8 +240,8 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main() -> None:
-    server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
-    print(f"Serving weather forecast app at http://127.0.0.1:{PORT}")
+    server = ThreadingHTTPServer((HOST, PORT), Handler)
+    print(f"Serving weather forecast app at http://{HOST}:{PORT}")
     server.serve_forever()
 
 
