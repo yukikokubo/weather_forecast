@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>気象予報士 水谷幸資のズバリ天気</title>
+    <link rel="preconnect" href="https://tile.openstreetmap.org">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="map-stage" aria-label="天気マップ">
+        <div id="map"></div>
+        <header class="site-title">
+          <p>気象予報士</p>
+          <h1>水谷幸資のズバリ天気</h1>
+        </header>
+        <nav class="mode-panel" aria-label="表示切替">
+          <div class="day-tabs" id="dayTabs"></div>
+        </nav>
+      </section>
+
+      <section class="table-panel" aria-label="週間予報">
+        <div class="table-heading">
+          <div>
+            <p class="eyebrow">7 days</p>
+            <h2>週間データ</h2>
+          </div>
+          <label class="select-label">
+            <span>地域</span>
+            <select id="regionSelect">
+              <option value="all">すべて</option>
+            </select>
+          </label>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead id="forecastHead"></thead>
+            <tbody id="forecastBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
