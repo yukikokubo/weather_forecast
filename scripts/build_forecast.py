@@ -1,21 +1,14 @@
 from __future__ import annotations
 
 import json
-import mimetypes
-import os
 import pathlib
-import sqlite3
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
-from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 
-ROOT = pathlib.Path(__file__).parent.resolve()
-STATIC_DIR = ROOT / "static"
-DB_PATH = ROOT / "weather.db"
-HOST = os.environ.get("HOST", "127.0.0.1")
-PORT = int(os.environ.get("PORT", "8000"))
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+OUTPUT_PATH = ROOT / "data" / "forecast.json"
 JST = timezone(timedelta(hours=9))
 
 DAILY_FIELDS = [
@@ -114,61 +107,6 @@ def fetch_json(url: str) -> dict[str, object]:
         return json.loads(response.read().decode("utf-8"))
 
 
-def cache_date() -> str:
-    return datetime.now(JST).date().isoformat()
-
-
-def init_db() -> None:
-    with sqlite3.connect(DB_PATH) as connection:
-        connection.execute(
-            """
-            CREATE TABLE IF NOT EXISTS forecast_cache (
-                cache_date TEXT PRIMARY KEY,
-                payload TEXT NOT NULL,
-                fetched_at TEXT NOT NULL
-            )
-            """
-        )
-
-
-def load_cached_forecast() -> dict[str, object] | None:
-    init_db()
-    with sqlite3.connect(DB_PATH) as connection:
-        row = connection.execute(
-            "SELECT payload FROM forecast_cache WHERE cache_date = ?",
-            (cache_date(),),
-        ).fetchone()
-    if row is None:
-        return None
-    return json.loads(row[0])
-
-
-def save_cached_forecast(payload: dict[str, object]) -> None:
-    init_db()
-    payload = {**payload, "cachedAt": datetime.now(JST).isoformat(timespec="seconds")}
-    with sqlite3.connect(DB_PATH) as connection:
-        connection.execute(
-            """
-            INSERT INTO forecast_cache (cache_date, payload, fetched_at)
-            VALUES (?, ?, ?)
-            ON CONFLICT(cache_date) DO UPDATE SET
-                payload = excluded.payload,
-                fetched_at = excluded.fetched_at
-            """,
-            (cache_date(), json.dumps(payload, ensure_ascii=False), payload["cachedAt"]),
-        )
-
-
-def get_forecast_payload() -> dict[str, object]:
-    cached = load_cached_forecast()
-    if cached is not None:
-        return cached
-
-    payload = make_forecast_payload()
-    save_cached_forecast(payload)
-    return payload
-
-
 def make_forecast_payload() -> dict[str, object]:
     items = []
     for city in all_cities():
@@ -187,62 +125,22 @@ def make_forecast_payload() -> dict[str, object]:
                 }
             )
         items.append({**city, "days": days})
-    return {"source": "Open-Meteo", "dailyFields": DAILY_FIELDS, "groups": CITY_GROUPS, "cities": items}
 
-
-class Handler(BaseHTTPRequestHandler):
-    def do_GET(self) -> None:
-        path = urllib.parse.urlparse(self.path).path
-        if path == "/api/forecast":
-            self.send_forecast()
-            return
-        if path == "/":
-            path = "/index.html"
-        self.send_static(path)
-
-    def send_forecast(self) -> None:
-        try:
-            payload = get_forecast_payload()
-            body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-            self.send_response(200)
-            self.send_header("Content-Type", "application/json; charset=utf-8")
-            self.send_header("Cache-Control", "public, max-age=900")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-        except Exception as exc:
-            body = json.dumps({"error": str(exc)}, ensure_ascii=False).encode("utf-8")
-            self.send_response(502)
-            self.send_header("Content-Type", "application/json; charset=utf-8")
-            self.send_header("Content-Length", str(len(body)))
-            self.end_headers()
-            self.wfile.write(body)
-
-    def send_static(self, path: str) -> None:
-        normalized = pathlib.PurePosixPath(urllib.parse.unquote(path.lstrip("/")))
-        file_path = (STATIC_DIR / normalized).resolve()
-        if not str(file_path).startswith(str(STATIC_DIR)) or not file_path.is_file():
-            self.send_error(404)
-            return
-
-        content_type, _ = mimetypes.guess_type(str(file_path))
-        if content_type and (content_type.startswith("text/") or content_type == "application/javascript"):
-            content_type = f"{content_type}; charset=utf-8"
-        body = file_path.read_bytes()
-        self.send_response(200)
-        self.send_header("Content-Type", content_type or "application/octet-stream")
-        self.send_header("Content-Length", str(len(body)))
-        self.end_headers()
-        self.wfile.write(body)
-
-    def log_message(self, format: str, *args: object) -> None:
-        print(f"{self.address_string()} - {format % args}")
+    return {
+        "source": "Open-Meteo",
+        "license": "CC BY 4.0",
+        "generatedAt": datetime.now(JST).isoformat(timespec="seconds"),
+        "dailyFields": DAILY_FIELDS,
+        "groups": CITY_GROUPS,
+        "cities": items,
+    }
 
 
 def main() -> None:
-    server = ThreadingHTTPServer((HOST, PORT), Handler)
-    print(f"Serving weather forecast app at http://{HOST}:{PORT}")
-    server.serve_forever()
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    payload = make_forecast_payload()
+    OUTPUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Wrote {len(payload['cities'])} cities to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

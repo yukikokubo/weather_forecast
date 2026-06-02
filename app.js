@@ -261,7 +261,7 @@ regionSelect.addEventListener("change", () => {
 
 async function boot() {
   try {
-    const response = await fetch("/api/forecast");
+    const response = await fetch("data/forecast.json");
     if (!response.ok) throw new Error(`Forecast API failed: ${response.status}`);
     state.data = await response.json();
     renderRegionSelect();
