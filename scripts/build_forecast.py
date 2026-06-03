@@ -2,8 +2,10 @@ from __future__ import annotations
 
 import json
 import pathlib
+import time
 import urllib.parse
 import urllib.request
+import urllib.error
 from datetime import datetime, timedelta, timezone
 
 
@@ -18,6 +20,10 @@ DAILY_FIELDS = [
     "precipitation_probability_max",
     "precipitation_sum",
 ]
+
+FETCH_RETRIES = 3
+FETCH_RETRY_DELAY_SECONDS = 2
+FETCH_DELAY_SECONDS = 0.5
 
 CITY_GROUPS = [
     {
@@ -103,14 +109,27 @@ def build_forecast_url(city: dict[str, object]) -> str:
 
 def fetch_json(url: str) -> dict[str, object]:
     request = urllib.request.Request(url, headers={"User-Agent": "weather-forecast-demo/1.0"})
-    with urllib.request.urlopen(request, timeout=20) as response:
-        return json.loads(response.read().decode("utf-8"))
+    for attempt in range(1, FETCH_RETRIES + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (TimeoutError, urllib.error.URLError) as error:
+            if attempt == FETCH_RETRIES:
+                raise
+            print(f"Fetch failed ({attempt}/{FETCH_RETRIES}): {error}. Retrying...")
+            time.sleep(FETCH_RETRY_DELAY_SECONDS * attempt)
+
+    raise RuntimeError("unreachable")
 
 
 def make_forecast_payload() -> dict[str, object]:
     items = []
     for city in all_cities():
-        forecast = fetch_json(build_forecast_url(city))
+        print(f"Fetching forecast: {city['name']}")
+        try:
+            forecast = fetch_json(build_forecast_url(city))
+        except Exception as error:
+            raise RuntimeError(f"Failed to fetch forecast for {city['name']}") from error
         daily = forecast["daily"]
         days = []
         for index, date in enumerate(daily["time"]):
@@ -125,6 +144,7 @@ def make_forecast_payload() -> dict[str, object]:
                 }
             )
         items.append({**city, "days": days})
+        time.sleep(FETCH_DELAY_SECONDS)
 
     return {
         "source": "Open-Meteo",
