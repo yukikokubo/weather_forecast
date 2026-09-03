@@ -1,7 +1,7 @@
 {
   "source": "Open-Meteo",
   "license": "CC BY 4.0",
-  "generatedAt": "2026-09-02T07:37:13+09:00",
+  "generatedAt": "2026-09-04T07:34:38+09:00",
   "dailyFields": [
     "weather_code",
     "temperature_2m_max",
@@ -212,60 +212,60 @@
       "region": "北海道・東北",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 63,
-          "maxTemp": 20.8,
-          "minTemp": 16.6,
-          "precipProbability": 100,
-          "precipitation": 13.9
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 95,
-          "maxTemp": 22.4,
-          "minTemp": 16.7,
-          "precipProbability": 94,
-          "precipitation": 13.3
-        },
-        {
           "date": "2026-09-04",
           "weatherCode": 51,
-          "maxTemp": 21.1,
+          "maxTemp": 19.8,
           "minTemp": 14.6,
-          "precipProbability": 89,
-          "precipitation": 2.5
+          "precipProbability": 100,
+          "precipitation": 1.8
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 2,
-          "maxTemp": 21.9,
-          "minTemp": 11.0,
-          "precipProbability": 12,
+          "weatherCode": 0,
+          "maxTemp": 21.7,
+          "minTemp": 10.9,
+          "precipProbability": 0,
           "precipitation": 0.0
         },
         {
           "date": "2026-09-06",
           "weatherCode": 3,
-          "maxTemp": 23.9,
-          "minTemp": 10.0,
+          "maxTemp": 24.2,
+          "minTemp": 10.4,
           "precipProbability": 0,
           "precipitation": 0.0
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 81,
-          "maxTemp": 20.5,
-          "minTemp": 15.3,
-          "precipProbability": 19,
-          "precipitation": 20.9
+          "weatherCode": 61,
+          "maxTemp": 21.3,
+          "minTemp": 15.8,
+          "precipProbability": 35,
+          "precipitation": 9.6
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 81,
-          "maxTemp": 23.2,
-          "minTemp": 16.4,
-          "precipProbability": 22,
-          "precipitation": 11.2
+          "weatherCode": 61,
+          "maxTemp": 24.6,
+          "minTemp": 16.8,
+          "precipProbability": 35,
+          "precipitation": 9.6
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 51,
+          "maxTemp": 20.2,
+          "minTemp": 13.7,
+          "precipProbability": 37,
+          "precipitation": 0.9
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 3,
+          "maxTemp": 20.8,
+          "minTemp": 11.2,
+          "precipProbability": 18,
+          "precipitation": 0.0
         }
       ]
     },
@@ -277,60 +277,60 @@
       "region": "北海道・東北",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 53,
-          "maxTemp": 27.7,
-          "minTemp": 20.2,
-          "precipProbability": 84,
-          "precipitation": 1.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 65,
-          "maxTemp": 23.9,
-          "minTemp": 21.5,
-          "precipProbability": 78,
-          "precipitation": 21.0
-        },
-        {
           "date": "2026-09-04",
           "weatherCode": 51,
-          "maxTemp": 24.9,
-          "minTemp": 19.1,
-          "precipProbability": 75,
-          "precipitation": 0.4
+          "maxTemp": 24.8,
+          "minTemp": 19.2,
+          "precipProbability": 97,
+          "precipitation": 0.2
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 51,
-          "maxTemp": 23.0,
-          "minTemp": 15.8,
-          "precipProbability": 51,
-          "precipitation": 0.7
+          "weatherCode": 2,
+          "maxTemp": 23.5,
+          "minTemp": 16.1,
+          "precipProbability": 23,
+          "precipitation": 0.0
         },
         {
           "date": "2026-09-06",
           "weatherCode": 3,
-          "maxTemp": 25.0,
-          "minTemp": 14.7,
-          "precipProbability": 6,
+          "maxTemp": 25.8,
+          "minTemp": 13.7,
+          "precipProbability": 0,
           "precipitation": 0.0
         },
         {
           "date": "2026-09-07",
           "weatherCode": 82,
-          "maxTemp": 22.0,
-          "minTemp": 19.3,
-          "precipProbability": 28,
-          "precipitation": 44.3
+          "maxTemp": 23.9,
+          "minTemp": 20.4,
+          "precipProbability": 71,
+          "precipitation": 44.9
         },
         {
           "date": "2026-09-08",
+          "weatherCode": 81,
+          "maxTemp": 26.1,
+          "minTemp": 20.3,
+          "precipProbability": 65,
+          "precipitation": 11.5
+        },
+        {
+          "date": "2026-09-09",
           "weatherCode": 51,
-          "maxTemp": 25.5,
-          "minTemp": 20.0,
+          "maxTemp": 23.8,
+          "minTemp": 17.8,
           "precipProbability": 31,
-          "precipitation": 0.4
+          "precipitation": 0.3
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 3,
+          "maxTemp": 20.9,
+          "minTemp": 16.0,
+          "precipProbability": 24,
+          "precipitation": 0.0
         }
       ]
     },
@@ -342,60 +342,60 @@
       "region": "北海道・東北",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 53,
-          "maxTemp": 29.4,
-          "minTemp": 20.7,
-          "precipProbability": 100,
-          "precipitation": 2.1
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 24.6,
-          "minTemp": 21.4,
-          "precipProbability": 100,
-          "precipitation": 37.2
-        },
-        {
           "date": "2026-09-04",
           "weatherCode": 3,
-          "maxTemp": 27.4,
-          "minTemp": 19.9,
-          "precipProbability": 86,
+          "maxTemp": 27.6,
+          "minTemp": 20.4,
+          "precipProbability": 2,
           "precipitation": 0.0
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 51,
-          "maxTemp": 25.0,
-          "minTemp": 17.8,
-          "precipProbability": 65,
-          "precipitation": 0.6
+          "weatherCode": 3,
+          "maxTemp": 24.8,
+          "minTemp": 18.4,
+          "precipProbability": 76,
+          "precipitation": 0.0
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 51,
-          "maxTemp": 23.6,
-          "minTemp": 16.6,
-          "precipProbability": 65,
-          "precipitation": 2.1
+          "weatherCode": 53,
+          "maxTemp": 23.4,
+          "minTemp": 19.0,
+          "precipProbability": 87,
+          "precipitation": 1.7
         },
         {
           "date": "2026-09-07",
           "weatherCode": 95,
-          "maxTemp": 25.9,
-          "minTemp": 19.9,
-          "precipProbability": 65,
-          "precipitation": 78.7
+          "maxTemp": 23.8,
+          "minTemp": 20.4,
+          "precipProbability": 96,
+          "precipitation": 134.2
         },
         {
           "date": "2026-09-08",
           "weatherCode": 53,
-          "maxTemp": 27.8,
-          "minTemp": 21.7,
-          "precipProbability": 47,
-          "precipitation": 8.8
+          "maxTemp": 30.8,
+          "minTemp": 21.9,
+          "precipProbability": 61,
+          "precipitation": 2.2
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 81,
+          "maxTemp": 26.1,
+          "minTemp": 19.9,
+          "precipProbability": 71,
+          "precipitation": 19.4
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 53,
+          "maxTemp": 20.9,
+          "minTemp": 17.2,
+          "precipProbability": 60,
+          "precipitation": 4.8
         }
       ]
     },
@@ -407,60 +407,60 @@
       "region": "北海道・東北",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 63,
-          "maxTemp": 26.1,
-          "minTemp": 20.7,
-          "precipProbability": 100,
-          "precipitation": 30.4
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 65,
-          "maxTemp": 24.1,
-          "minTemp": 21.6,
-          "precipProbability": 99,
-          "precipitation": 51.4
-        },
-        {
           "date": "2026-09-04",
           "weatherCode": 3,
-          "maxTemp": 25.1,
-          "minTemp": 19.1,
-          "precipProbability": 61,
+          "maxTemp": 25.2,
+          "minTemp": 18.9,
+          "precipProbability": 95,
           "precipitation": 0.0
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 2,
-          "maxTemp": 25.2,
-          "minTemp": 16.3,
-          "precipProbability": 55,
+          "weatherCode": 0,
+          "maxTemp": 26.6,
+          "minTemp": 15.4,
+          "precipProbability": 25,
           "precipitation": 0.0
         },
         {
           "date": "2026-09-06",
           "weatherCode": 3,
-          "maxTemp": 25.6,
-          "minTemp": 17.0,
-          "precipProbability": 6,
+          "maxTemp": 27.0,
+          "minTemp": 18.0,
+          "precipProbability": 1,
           "precipitation": 0.0
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 81,
-          "maxTemp": 24.3,
-          "minTemp": 20.7,
-          "precipProbability": 28,
-          "precipitation": 39.4
+          "weatherCode": 95,
+          "maxTemp": 22.8,
+          "minTemp": 20.8,
+          "precipProbability": 77,
+          "precipitation": 43.7
         },
         {
           "date": "2026-09-08",
+          "weatherCode": 80,
+          "maxTemp": 27.7,
+          "minTemp": 21.6,
+          "precipProbability": 65,
+          "precipitation": 6.9
+        },
+        {
+          "date": "2026-09-09",
           "weatherCode": 51,
-          "maxTemp": 27.0,
-          "minTemp": 22.3,
-          "precipProbability": 28,
-          "precipitation": 0.8
+          "maxTemp": 24.3,
+          "minTemp": 15.9,
+          "precipProbability": 27,
+          "precipitation": 0.3
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 3,
+          "maxTemp": 23.9,
+          "minTemp": 13.7,
+          "precipProbability": 19,
+          "precipitation": 0.0
         }
       ]
     },
@@ -472,60 +472,60 @@
       "region": "関東",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 2,
-          "maxTemp": 31.0,
-          "minTemp": 22.4,
-          "precipProbability": 41,
-          "precipitation": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 53,
-          "maxTemp": 29.3,
-          "minTemp": 23.7,
-          "precipProbability": 78,
-          "precipitation": 1.3
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 63,
-          "maxTemp": 23.5,
-          "minTemp": 19.9,
-          "precipProbability": 93,
-          "precipitation": 40.2
+          "weatherCode": 53,
+          "maxTemp": 23.8,
+          "minTemp": 21.7,
+          "precipProbability": 78,
+          "precipitation": 9.5
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 61,
-          "maxTemp": 25.9,
-          "minTemp": 19.9,
-          "precipProbability": 85,
-          "precipitation": 8.08
+          "weatherCode": 55,
+          "maxTemp": 23.2,
+          "minTemp": 20.9,
+          "precipProbability": 63,
+          "precipitation": 7.0
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 96,
-          "maxTemp": 22.6,
-          "minTemp": 20.0,
-          "precipProbability": 55,
-          "precipitation": 69.9
+          "weatherCode": 65,
+          "maxTemp": 24.2,
+          "minTemp": 20.7,
+          "precipProbability": 83,
+          "precipitation": 82.3
         },
         {
           "date": "2026-09-07",
           "weatherCode": 96,
-          "maxTemp": 27.5,
-          "minTemp": 22.2,
-          "precipProbability": 69,
-          "precipitation": 82.1
+          "maxTemp": 27.1,
+          "minTemp": 22.0,
+          "precipProbability": 94,
+          "precipitation": 80.98
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 96,
-          "maxTemp": 29.9,
-          "minTemp": 24.6,
-          "precipProbability": 44,
-          "precipitation": 13.0
+          "weatherCode": 51,
+          "maxTemp": 32.4,
+          "minTemp": 25.6,
+          "precipProbability": 57,
+          "precipitation": 1.2
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
+          "maxTemp": 28.8,
+          "minTemp": 22.3,
+          "precipProbability": 65,
+          "precipitation": 10.5
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 3,
+          "maxTemp": 22.5,
+          "minTemp": 20.3,
+          "precipProbability": 64,
+          "precipitation": 0.0
         }
       ]
     },
@@ -537,60 +537,60 @@
       "region": "関東",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 3,
-          "maxTemp": 31.4,
-          "minTemp": 23.4,
-          "precipProbability": 45,
-          "precipitation": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 51,
-          "maxTemp": 28.9,
-          "minTemp": 25.2,
-          "precipProbability": 65,
-          "precipitation": 1.0
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 65,
+          "weatherCode": 63,
           "maxTemp": 25.1,
-          "minTemp": 20.3,
-          "precipProbability": 90,
-          "precipitation": 62.4
+          "minTemp": 22.6,
+          "precipProbability": 75,
+          "precipitation": 9.4
         },
         {
           "date": "2026-09-05",
           "weatherCode": 63,
-          "maxTemp": 25.8,
-          "minTemp": 20.5,
-          "precipProbability": 86,
-          "precipitation": 8.95
+          "maxTemp": 23.8,
+          "minTemp": 21.8,
+          "precipProbability": 69,
+          "precipitation": 11.7
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 96,
-          "maxTemp": 23.2,
-          "minTemp": 20.2,
-          "precipProbability": 56,
-          "precipitation": 136.3
+          "weatherCode": 65,
+          "maxTemp": 25.7,
+          "minTemp": 21.6,
+          "precipProbability": 88,
+          "precipitation": 175.7
         },
         {
           "date": "2026-09-07",
           "weatherCode": 96,
-          "maxTemp": 25.8,
-          "minTemp": 23.1,
-          "precipProbability": 69,
-          "precipitation": 85.0
+          "maxTemp": 26.7,
+          "minTemp": 21.9,
+          "precipProbability": 96,
+          "precipitation": 109.72
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 96,
-          "maxTemp": 29.0,
-          "minTemp": 24.9,
-          "precipProbability": 42,
-          "precipitation": 14.8
+          "weatherCode": 51,
+          "maxTemp": 30.4,
+          "minTemp": 26.0,
+          "precipProbability": 63,
+          "precipitation": 1.5
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
+          "maxTemp": 29.3,
+          "minTemp": 22.3,
+          "precipProbability": 61,
+          "precipitation": 15.2
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 51,
+          "maxTemp": 22.2,
+          "minTemp": 20.6,
+          "precipProbability": 64,
+          "precipitation": 4.6
         }
       ]
     },
@@ -602,60 +602,60 @@
       "region": "関東",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 2,
-          "maxTemp": 31.5,
-          "minTemp": 22.4,
-          "precipProbability": 41,
-          "precipitation": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 53,
-          "maxTemp": 29.8,
-          "minTemp": 23.6,
-          "precipProbability": 78,
-          "precipitation": 1.7
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 63,
-          "maxTemp": 23.3,
-          "minTemp": 20.0,
-          "precipProbability": 93,
-          "precipitation": 26.8
+          "weatherCode": 61,
+          "maxTemp": 25.3,
+          "minTemp": 21.8,
+          "precipProbability": 78,
+          "precipitation": 7.2
         },
         {
           "date": "2026-09-05",
           "weatherCode": 61,
-          "maxTemp": 26.3,
-          "minTemp": 20.0,
-          "precipProbability": 85,
-          "precipitation": 8.43
+          "maxTemp": 23.5,
+          "minTemp": 21.0,
+          "precipProbability": 63,
+          "precipitation": 6.2
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 96,
-          "maxTemp": 22.9,
-          "minTemp": 20.1,
-          "precipProbability": 55,
-          "precipitation": 54.1
+          "weatherCode": 63,
+          "maxTemp": 23.8,
+          "minTemp": 20.7,
+          "precipProbability": 83,
+          "precipitation": 64.9
         },
         {
           "date": "2026-09-07",
           "weatherCode": 96,
-          "maxTemp": 28.2,
-          "minTemp": 22.6,
-          "precipProbability": 69,
-          "precipitation": 108.7
+          "maxTemp": 27.3,
+          "minTemp": 22.3,
+          "precipProbability": 94,
+          "precipitation": 63.58
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 95,
-          "maxTemp": 30.6,
+          "weatherCode": 96,
+          "maxTemp": 32.2,
           "minTemp": 24.5,
-          "precipProbability": 44,
-          "precipitation": 12.4
+          "precipProbability": 57,
+          "precipitation": 6.6
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 96,
+          "maxTemp": 27.7,
+          "minTemp": 22.2,
+          "precipProbability": 65,
+          "precipitation": 17.4
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 3,
+          "maxTemp": 23.9,
+          "minTemp": 20.4,
+          "precipProbability": 64,
+          "precipitation": 0.0
         }
       ]
     },
@@ -667,60 +667,60 @@
       "region": "関東",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 2,
-          "maxTemp": 30.3,
-          "minTemp": 22.8,
-          "precipProbability": 16,
-          "precipitation": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 29.6,
-          "minTemp": 24.9,
-          "precipProbability": 71,
-          "precipitation": 4.3
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 63,
-          "maxTemp": 24.7,
-          "minTemp": 20.7,
-          "precipProbability": 88,
-          "precipitation": 41.2
+          "weatherCode": 61,
+          "maxTemp": 26.7,
+          "minTemp": 22.7,
+          "precipProbability": 69,
+          "precipitation": 6.6
         },
         {
           "date": "2026-09-05",
           "weatherCode": 61,
-          "maxTemp": 26.0,
-          "minTemp": 20.6,
-          "precipProbability": 82,
-          "precipitation": 5.18
+          "maxTemp": 24.7,
+          "minTemp": 21.3,
+          "precipProbability": 63,
+          "precipitation": 12.6
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 96,
-          "maxTemp": 24.0,
-          "minTemp": 22.1,
-          "precipProbability": 61,
-          "precipitation": 52.0
+          "weatherCode": 65,
+          "maxTemp": 25.2,
+          "minTemp": 22.9,
+          "precipProbability": 83,
+          "precipitation": 74.1
         },
         {
           "date": "2026-09-07",
           "weatherCode": 96,
           "maxTemp": 26.9,
-          "minTemp": 24.4,
-          "precipProbability": 67,
-          "precipitation": 47.3
+          "minTemp": 24.1,
+          "precipProbability": 96,
+          "precipitation": 77.52
         },
         {
           "date": "2026-09-08",
+          "weatherCode": 51,
+          "maxTemp": 29.9,
+          "minTemp": 26.4,
+          "precipProbability": 65,
+          "precipitation": 0.3
+        },
+        {
+          "date": "2026-09-09",
           "weatherCode": 95,
-          "maxTemp": 28.6,
-          "minTemp": 24.9,
-          "precipProbability": 53,
-          "precipitation": 12.0
+          "maxTemp": 29.3,
+          "minTemp": 21.6,
+          "precipProbability": 59,
+          "precipitation": 21.0
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 80,
+          "maxTemp": 21.6,
+          "minTemp": 20.4,
+          "precipProbability": 66,
+          "precipitation": 16.2
         }
       ]
     },
@@ -732,60 +732,60 @@
       "region": "関東",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 3,
-          "maxTemp": 30.4,
-          "minTemp": 22.0,
-          "precipProbability": 37,
-          "precipitation": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 53,
-          "maxTemp": 29.7,
-          "minTemp": 23.7,
-          "precipProbability": 100,
-          "precipitation": 3.2
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 63,
-          "maxTemp": 24.0,
-          "minTemp": 20.4,
-          "precipProbability": 82,
-          "precipitation": 15.3
+          "weatherCode": 53,
+          "maxTemp": 26.3,
+          "minTemp": 21.5,
+          "precipProbability": 69,
+          "precipitation": 1.8
         },
         {
           "date": "2026-09-05",
           "weatherCode": 61,
-          "maxTemp": 25.0,
-          "minTemp": 20.4,
-          "precipProbability": 80,
-          "precipitation": 5.23
+          "maxTemp": 24.2,
+          "minTemp": 20.9,
+          "precipProbability": 59,
+          "precipitation": 4.6
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 95,
-          "maxTemp": 24.2,
-          "minTemp": 20.5,
-          "precipProbability": 47,
-          "precipitation": 40.6
+          "weatherCode": 63,
+          "maxTemp": 24.6,
+          "minTemp": 23.0,
+          "precipProbability": 66,
+          "precipitation": 43.5
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 96,
-          "maxTemp": 26.5,
-          "minTemp": 22.6,
-          "precipProbability": 62,
-          "precipitation": 68.4
+          "weatherCode": 95,
+          "maxTemp": 25.8,
+          "minTemp": 23.1,
+          "precipProbability": 99,
+          "precipitation": 72.7
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 96,
-          "maxTemp": 30.5,
-          "minTemp": 23.9,
-          "precipProbability": 53,
-          "precipitation": 28.4
+          "weatherCode": 95,
+          "maxTemp": 32.3,
+          "minTemp": 25.5,
+          "precipProbability": 69,
+          "precipitation": 4.7
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
+          "maxTemp": 26.1,
+          "minTemp": 21.3,
+          "precipProbability": 62,
+          "precipitation": 26.2
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 3,
+          "maxTemp": 22.0,
+          "minTemp": 20.0,
+          "precipProbability": 62,
+          "precipitation": 0.0
         }
       ]
     },
@@ -797,60 +797,60 @@
       "region": "関東",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 2,
-          "maxTemp": 31.1,
-          "minTemp": 21.5,
-          "precipProbability": 22,
-          "precipitation": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 55,
-          "maxTemp": 28.2,
-          "minTemp": 21.5,
-          "precipProbability": 96,
-          "precipitation": 4.0
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 53,
-          "maxTemp": 21.3,
-          "minTemp": 19.7,
-          "precipProbability": 92,
-          "precipitation": 6.1
+          "weatherCode": 51,
+          "maxTemp": 25.6,
+          "minTemp": 20.6,
+          "precipProbability": 75,
+          "precipitation": 0.3
         },
         {
           "date": "2026-09-05",
           "weatherCode": 53,
-          "maxTemp": 26.8,
+          "maxTemp": 23.8,
           "minTemp": 19.7,
-          "precipProbability": 82,
-          "precipitation": 1.73
+          "precipProbability": 61,
+          "precipitation": 2.4
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 95,
-          "maxTemp": 23.9,
-          "minTemp": 19.4,
-          "precipProbability": 44,
-          "precipitation": 25.5
+          "weatherCode": 63,
+          "maxTemp": 22.4,
+          "minTemp": 20.3,
+          "precipProbability": 66,
+          "precipitation": 27.9
         },
         {
           "date": "2026-09-07",
           "weatherCode": 95,
-          "maxTemp": 26.0,
-          "minTemp": 20.8,
-          "precipProbability": 59,
-          "precipitation": 89.5
+          "maxTemp": 26.2,
+          "minTemp": 20.9,
+          "precipProbability": 96,
+          "precipitation": 86.0
         },
         {
           "date": "2026-09-08",
           "weatherCode": 95,
-          "maxTemp": 29.1,
-          "minTemp": 23.3,
-          "precipProbability": 45,
-          "precipitation": 41.6
+          "maxTemp": 30.0,
+          "minTemp": 23.8,
+          "precipProbability": 69,
+          "precipitation": 12.2
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 53,
+          "maxTemp": 26.2,
+          "minTemp": 21.2,
+          "precipProbability": 73,
+          "precipitation": 7.4
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 51,
+          "maxTemp": 23.8,
+          "minTemp": 20.3,
+          "precipProbability": 73,
+          "precipitation": 0.4
         }
       ]
     },
@@ -862,60 +862,60 @@
       "region": "関東",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 31.7,
-          "minTemp": 22.3,
-          "precipProbability": 96,
-          "precipitation": 0.3
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 26.3,
-          "minTemp": 20.8,
-          "precipProbability": 98,
-          "precipitation": 8.9
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 63,
-          "maxTemp": 22.4,
-          "minTemp": 19.8,
-          "precipProbability": 89,
-          "precipitation": 9.3
+          "weatherCode": 61,
+          "maxTemp": 25.7,
+          "minTemp": 21.5,
+          "precipProbability": 82,
+          "precipitation": 3.0
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 53,
-          "maxTemp": 26.0,
+          "weatherCode": 63,
+          "maxTemp": 23.2,
           "minTemp": 20.4,
-          "precipProbability": 67,
-          "precipitation": 3.68
+          "precipProbability": 61,
+          "precipitation": 5.1
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 81,
-          "maxTemp": 21.4,
-          "minTemp": 20.1,
-          "precipProbability": 55,
-          "precipitation": 37.3
+          "weatherCode": 63,
+          "maxTemp": 22.5,
+          "minTemp": 20.2,
+          "precipProbability": 73,
+          "precipitation": 29.0
         },
         {
           "date": "2026-09-07",
           "weatherCode": 95,
-          "maxTemp": 27.1,
-          "minTemp": 20.4,
-          "precipProbability": 55,
-          "precipitation": 71.7
+          "maxTemp": 25.6,
+          "minTemp": 20.0,
+          "precipProbability": 95,
+          "precipitation": 101.1
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 55,
-          "maxTemp": 28.3,
-          "minTemp": 24.4,
-          "precipProbability": 45,
-          "precipitation": 9.2
+          "weatherCode": 96,
+          "maxTemp": 31.8,
+          "minTemp": 22.9,
+          "precipProbability": 61,
+          "precipitation": 19.4
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 80,
+          "maxTemp": 27.5,
+          "minTemp": 21.7,
+          "precipProbability": 79,
+          "precipitation": 12.3
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 53,
+          "maxTemp": 24.9,
+          "minTemp": 20.2,
+          "precipProbability": 76,
+          "precipitation": 6.4
         }
       ]
     },
@@ -927,60 +927,60 @@
       "region": "中部",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 30.3,
-          "minTemp": 24.3,
-          "precipProbability": 82,
-          "precipitation": 0.3
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 65,
-          "maxTemp": 25.3,
-          "minTemp": 21.6,
-          "precipProbability": 100,
-          "precipitation": 54.3
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 63,
-          "maxTemp": 25.8,
-          "minTemp": 21.3,
-          "precipProbability": 94,
-          "precipitation": 4.3
-        },
-        {
-          "date": "2026-09-05",
-          "weatherCode": 51,
-          "maxTemp": 25.3,
-          "minTemp": 22.1,
-          "precipProbability": 18,
-          "precipitation": 0.4
-        },
-        {
-          "date": "2026-09-06",
           "weatherCode": 3,
-          "maxTemp": 26.3,
-          "minTemp": 20.8,
-          "precipProbability": 16,
+          "maxTemp": 25.8,
+          "minTemp": 22.8,
+          "precipProbability": 57,
           "precipitation": 0.0
         },
         {
+          "date": "2026-09-05",
+          "weatherCode": 3,
+          "maxTemp": 25.3,
+          "minTemp": 21.0,
+          "precipProbability": 8,
+          "precipitation": 0.0
+        },
+        {
+          "date": "2026-09-06",
+          "weatherCode": 55,
+          "maxTemp": 25.9,
+          "minTemp": 23.2,
+          "precipProbability": 14,
+          "precipitation": 1.9
+        },
+        {
           "date": "2026-09-07",
-          "weatherCode": 95,
-          "maxTemp": 28.2,
-          "minTemp": 22.5,
-          "precipProbability": 33,
-          "precipitation": 20.5
+          "weatherCode": 82,
+          "maxTemp": 28.5,
+          "minTemp": 21.7,
+          "precipProbability": 82,
+          "precipitation": 47.2
         },
         {
           "date": "2026-09-08",
+          "weatherCode": 81,
+          "maxTemp": 27.4,
+          "minTemp": 23.9,
+          "precipProbability": 65,
+          "precipitation": 33.8
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 81,
+          "maxTemp": 24.6,
+          "minTemp": 22.1,
+          "precipProbability": 53,
+          "precipitation": 24.8
+        },
+        {
+          "date": "2026-09-10",
           "weatherCode": 51,
-          "maxTemp": 27.5,
-          "minTemp": 23.6,
-          "precipProbability": 22,
-          "precipitation": 1.6
+          "maxTemp": 24.2,
+          "minTemp": 21.1,
+          "precipProbability": 51,
+          "precipitation": 2.0
         }
       ]
     },
@@ -992,60 +992,60 @@
       "region": "中部",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 31.6,
-          "minTemp": 23.6,
-          "precipProbability": 78,
-          "precipitation": 0.4
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 65,
-          "maxTemp": 27.5,
-          "minTemp": 20.4,
-          "precipProbability": 100,
-          "precipitation": 39.8
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 51,
-          "maxTemp": 25.6,
-          "minTemp": 20.0,
-          "precipProbability": 90,
-          "precipitation": 0.3
+          "weatherCode": 61,
+          "maxTemp": 25.5,
+          "minTemp": 21.8,
+          "precipProbability": 31,
+          "precipitation": 3.7
         },
         {
           "date": "2026-09-05",
           "weatherCode": 3,
-          "maxTemp": 26.6,
-          "minTemp": 22.3,
-          "precipProbability": 43,
+          "maxTemp": 27.2,
+          "minTemp": 22.5,
+          "precipProbability": 4,
           "precipitation": 0.0
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 51,
-          "maxTemp": 30.0,
-          "minTemp": 21.3,
-          "precipProbability": 50,
-          "precipitation": 0.4
+          "weatherCode": 61,
+          "maxTemp": 27.7,
+          "minTemp": 22.2,
+          "precipProbability": 57,
+          "precipitation": 6.4
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 81,
-          "maxTemp": 27.5,
-          "minTemp": 23.1,
-          "precipProbability": 57,
-          "precipitation": 29.3
+          "weatherCode": 95,
+          "maxTemp": 26.3,
+          "minTemp": 21.6,
+          "precipProbability": 88,
+          "precipitation": 42.4
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 51,
-          "maxTemp": 27.9,
-          "minTemp": 23.5,
-          "precipProbability": 61,
-          "precipitation": 2.4
+          "weatherCode": 95,
+          "maxTemp": 28.2,
+          "minTemp": 22.5,
+          "precipProbability": 84,
+          "precipitation": 33.6
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
+          "maxTemp": 24.9,
+          "minTemp": 21.0,
+          "precipProbability": 83,
+          "precipitation": 48.4
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 81,
+          "maxTemp": 21.2,
+          "minTemp": 20.3,
+          "precipProbability": 71,
+          "precipitation": 41.0
         }
       ]
     },
@@ -1057,60 +1057,60 @@
       "region": "中部",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 31.7,
-          "minTemp": 19.7,
-          "precipProbability": 35,
-          "precipitation": 0.4
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 25.7,
-          "minTemp": 18.4,
-          "precipProbability": 96,
-          "precipitation": 27.6
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 63,
-          "maxTemp": 19.0,
-          "minTemp": 17.4,
-          "precipProbability": 81,
-          "precipitation": 10.2
+          "weatherCode": 51,
+          "maxTemp": 22.0,
+          "minTemp": 18.8,
+          "precipProbability": 92,
+          "precipitation": 0.3
         },
         {
           "date": "2026-09-05",
           "weatherCode": 51,
-          "maxTemp": 25.1,
-          "minTemp": 17.3,
-          "precipProbability": 49,
-          "precipitation": 0.9
+          "maxTemp": 22.9,
+          "minTemp": 17.6,
+          "precipProbability": 18,
+          "precipitation": 0.2
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 81,
-          "maxTemp": 24.5,
-          "minTemp": 17.7,
-          "precipProbability": 41,
-          "precipitation": 23.6
+          "weatherCode": 63,
+          "maxTemp": 20.2,
+          "minTemp": 19.2,
+          "precipProbability": 71,
+          "precipitation": 23.0
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 81,
-          "maxTemp": 28.8,
-          "minTemp": 19.9,
-          "precipProbability": 53,
-          "precipitation": 15.6
+          "weatherCode": 95,
+          "maxTemp": 25.3,
+          "minTemp": 19.0,
+          "precipProbability": 87,
+          "precipitation": 31.02
         },
         {
           "date": "2026-09-08",
           "weatherCode": 95,
-          "maxTemp": 25.6,
-          "minTemp": 21.8,
-          "precipProbability": 43,
-          "precipitation": 19.2
+          "maxTemp": 28.0,
+          "minTemp": 22.3,
+          "precipProbability": 69,
+          "precipitation": 14.9
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 81,
+          "maxTemp": 23.8,
+          "minTemp": 19.5,
+          "precipProbability": 65,
+          "precipitation": 53.8
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 81,
+          "maxTemp": 21.9,
+          "minTemp": 19.0,
+          "precipProbability": 71,
+          "precipitation": 31.6
         }
       ]
     },
@@ -1122,60 +1122,60 @@
       "region": "中部",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 31.1,
-          "minTemp": 23.7,
-          "precipProbability": 76,
-          "precipitation": 0.1
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 27.4,
-          "minTemp": 20.9,
-          "precipProbability": 96,
-          "precipitation": 21.2
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 65,
-          "maxTemp": 22.4,
-          "minTemp": 20.2,
-          "precipProbability": 88,
-          "precipitation": 58.3
+          "weatherCode": 63,
+          "maxTemp": 24.0,
+          "minTemp": 22.2,
+          "precipProbability": 97,
+          "precipitation": 16.7
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 61,
-          "maxTemp": 27.3,
-          "minTemp": 21.0,
-          "precipProbability": 65,
-          "precipitation": 5.52
+          "weatherCode": 55,
+          "maxTemp": 27.8,
+          "minTemp": 21.3,
+          "precipProbability": 61,
+          "precipitation": 1.5
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 95,
-          "maxTemp": 28.3,
-          "minTemp": 22.7,
-          "precipProbability": 51,
-          "precipitation": 27.9
+          "weatherCode": 63,
+          "maxTemp": 23.8,
+          "minTemp": 22.5,
+          "precipProbability": 74,
+          "precipitation": 50.9
         },
         {
           "date": "2026-09-07",
           "weatherCode": 95,
-          "maxTemp": 28.5,
-          "minTemp": 23.2,
-          "precipProbability": 46,
-          "precipitation": 21.9
+          "maxTemp": 28.7,
+          "minTemp": 22.2,
+          "precipProbability": 93,
+          "precipitation": 51.85
         },
         {
           "date": "2026-09-08",
           "weatherCode": 96,
-          "maxTemp": 26.9,
+          "maxTemp": 28.3,
+          "minTemp": 24.4,
+          "precipProbability": 73,
+          "precipitation": 16.4
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 96,
+          "maxTemp": 28.1,
           "minTemp": 24.2,
-          "precipProbability": 42,
-          "precipitation": 82.6
+          "precipProbability": 68,
+          "precipitation": 53.4
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 80,
+          "maxTemp": 27.2,
+          "minTemp": 23.8,
+          "precipProbability": 63,
+          "precipitation": 11.0
         }
       ]
     },
@@ -1187,60 +1187,60 @@
       "region": "中部",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 3,
-          "maxTemp": 30.5,
-          "minTemp": 23.8,
-          "precipProbability": 24,
-          "precipitation": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 51,
-          "maxTemp": 28.6,
-          "minTemp": 24.6,
-          "precipProbability": 76,
-          "precipitation": 1.2
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 65,
-          "maxTemp": 24.4,
-          "minTemp": 21.6,
-          "precipProbability": 94,
-          "precipitation": 121.6
+          "weatherCode": 61,
+          "maxTemp": 26.1,
+          "minTemp": 22.8,
+          "precipProbability": 80,
+          "precipitation": 7.1
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 95,
-          "maxTemp": 25.8,
-          "minTemp": 21.3,
-          "precipProbability": 80,
-          "precipitation": 23.85
+          "weatherCode": 61,
+          "maxTemp": 26.0,
+          "minTemp": 21.1,
+          "precipProbability": 67,
+          "precipitation": 5.1
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 95,
-          "maxTemp": 23.1,
-          "minTemp": 21.4,
-          "precipProbability": 52,
-          "precipitation": 60.8
+          "weatherCode": 65,
+          "maxTemp": 24.5,
+          "minTemp": 22.1,
+          "precipProbability": 78,
+          "precipitation": 153.7
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 95,
-          "maxTemp": 25.2,
-          "minTemp": 21.7,
-          "precipProbability": 61,
-          "precipitation": 140.3
+          "weatherCode": 96,
+          "maxTemp": 25.8,
+          "minTemp": 21.2,
+          "precipProbability": 98,
+          "precipitation": 164.8
         },
         {
           "date": "2026-09-08",
           "weatherCode": 96,
+          "maxTemp": 28.2,
+          "minTemp": 23.7,
+          "precipProbability": 78,
+          "precipitation": 21.3
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
           "maxTemp": 27.2,
-          "minTemp": 23.5,
-          "precipProbability": 41,
-          "precipitation": 39.6
+          "minTemp": 22.4,
+          "precipProbability": 75,
+          "precipitation": 48.3
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 53,
+          "maxTemp": 25.6,
+          "minTemp": 21.4,
+          "precipProbability": 67,
+          "precipitation": 2.0
         }
       ]
     },
@@ -1252,60 +1252,60 @@
       "region": "関西",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 32.1,
-          "minTemp": 24.3,
-          "precipProbability": 76,
-          "precipitation": 0.1
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 28.3,
-          "minTemp": 23.9,
-          "precipProbability": 89,
-          "precipitation": 39.1
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 65,
-          "maxTemp": 22.7,
-          "minTemp": 20.4,
-          "precipProbability": 96,
-          "precipitation": 93.0
+          "weatherCode": 61,
+          "maxTemp": 23.8,
+          "minTemp": 22.6,
+          "precipProbability": 100,
+          "precipitation": 21.1
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 95,
-          "maxTemp": 29.7,
-          "minTemp": 21.5,
-          "precipProbability": 59,
-          "precipitation": 12.92
+          "weatherCode": 51,
+          "maxTemp": 27.5,
+          "minTemp": 21.9,
+          "precipProbability": 69,
+          "precipitation": 0.4
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 95,
-          "maxTemp": 28.0,
-          "minTemp": 24.1,
-          "precipProbability": 51,
-          "precipitation": 24.1
+          "weatherCode": 63,
+          "maxTemp": 25.3,
+          "minTemp": 23.6,
+          "precipProbability": 78,
+          "precipitation": 27.5
         },
         {
           "date": "2026-09-07",
           "weatherCode": 95,
-          "maxTemp": 32.0,
-          "minTemp": 23.8,
-          "precipProbability": 43,
-          "precipitation": 12.2
+          "maxTemp": 29.9,
+          "minTemp": 23.2,
+          "precipProbability": 86,
+          "precipitation": 16.93
         },
         {
           "date": "2026-09-08",
           "weatherCode": 95,
-          "maxTemp": 29.2,
+          "maxTemp": 28.4,
+          "minTemp": 24.3,
+          "precipProbability": 58,
+          "precipitation": 15.6
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 51,
+          "maxTemp": 29.5,
           "minTemp": 24.8,
-          "precipProbability": 42,
-          "precipitation": 10.6
+          "precipProbability": 56,
+          "precipitation": 2.1
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 80,
+          "maxTemp": 26.6,
+          "minTemp": 23.4,
+          "precipProbability": 55,
+          "precipitation": 11.2
         }
       ]
     },
@@ -1317,60 +1317,60 @@
       "region": "関西",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 53,
-          "maxTemp": 32.1,
-          "minTemp": 24.3,
-          "precipProbability": 84,
-          "precipitation": 1.8
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 28.4,
-          "minTemp": 22.2,
-          "precipProbability": 94,
-          "precipitation": 28.7
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 65,
-          "maxTemp": 22.1,
-          "minTemp": 20.4,
-          "precipProbability": 96,
-          "precipitation": 80.8
+          "weatherCode": 63,
+          "maxTemp": 23.7,
+          "minTemp": 22.2,
+          "precipProbability": 100,
+          "precipitation": 11.5
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 55,
-          "maxTemp": 29.7,
-          "minTemp": 21.2,
+          "weatherCode": 3,
+          "maxTemp": 27.2,
+          "minTemp": 21.3,
           "precipProbability": 57,
-          "precipitation": 8.5
+          "precipitation": 0.0
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 80,
-          "maxTemp": 28.7,
-          "minTemp": 22.6,
-          "precipProbability": 51,
-          "precipitation": 14.9
+          "weatherCode": 63,
+          "maxTemp": 25.0,
+          "minTemp": 23.3,
+          "precipProbability": 78,
+          "precipitation": 24.8
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 80,
-          "maxTemp": 30.9,
-          "minTemp": 23.0,
-          "precipProbability": 41,
-          "precipitation": 8.8
+          "weatherCode": 96,
+          "maxTemp": 30.2,
+          "minTemp": 22.5,
+          "precipProbability": 84,
+          "precipitation": 39.4
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 96,
-          "maxTemp": 29.8,
-          "minTemp": 23.8,
-          "precipProbability": 45,
-          "precipitation": 18.6
+          "weatherCode": 95,
+          "maxTemp": 27.5,
+          "minTemp": 23.9,
+          "precipProbability": 51,
+          "precipitation": 19.3
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
+          "maxTemp": 28.8,
+          "minTemp": 23.7,
+          "precipProbability": 57,
+          "precipitation": 12.3
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 53,
+          "maxTemp": 25.6,
+          "minTemp": 22.4,
+          "precipProbability": 51,
+          "precipitation": 6.2
         }
       ]
     },
@@ -1382,60 +1382,60 @@
       "region": "関西",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 30.8,
-          "minTemp": 25.7,
-          "precipProbability": 50,
-          "precipitation": 0.2
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 28.2,
-          "minTemp": 24.7,
-          "precipProbability": 96,
-          "precipitation": 33.5
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 65,
-          "maxTemp": 24.5,
-          "minTemp": 20.7,
-          "precipProbability": 98,
-          "precipitation": 95.9
+          "weatherCode": 63,
+          "maxTemp": 24.7,
+          "minTemp": 23.2,
+          "precipProbability": 100,
+          "precipitation": 17.7
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 95,
-          "maxTemp": 27.8,
-          "minTemp": 23.4,
-          "precipProbability": 53,
-          "precipitation": 12.1
+          "weatherCode": 51,
+          "maxTemp": 28.1,
+          "minTemp": 23.1,
+          "precipProbability": 61,
+          "precipitation": 0.8
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 95,
-          "maxTemp": 27.5,
-          "minTemp": 24.2,
-          "precipProbability": 53,
-          "precipitation": 19.1
+          "weatherCode": 63,
+          "maxTemp": 25.5,
+          "minTemp": 24.0,
+          "precipProbability": 78,
+          "precipitation": 52.7
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 81,
-          "maxTemp": 29.8,
-          "minTemp": 23.8,
-          "precipProbability": 45,
-          "precipitation": 4.6
+          "weatherCode": 95,
+          "maxTemp": 28.0,
+          "minTemp": 23.3,
+          "precipProbability": 86,
+          "precipitation": 21.93
         },
         {
           "date": "2026-09-08",
           "weatherCode": 96,
-          "maxTemp": 29.3,
-          "minTemp": 25.6,
-          "precipProbability": 38,
-          "precipitation": 14.6
+          "maxTemp": 27.1,
+          "minTemp": 23.9,
+          "precipProbability": 53,
+          "precipitation": 38.3
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
+          "maxTemp": 27.1,
+          "minTemp": 23.9,
+          "precipProbability": 58,
+          "precipitation": 9.6
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 55,
+          "maxTemp": 25.6,
+          "minTemp": 23.0,
+          "precipProbability": 59,
+          "precipitation": 4.4
         }
       ]
     },
@@ -1447,60 +1447,60 @@
       "region": "中国・四国",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 2,
-          "maxTemp": 31.7,
-          "minTemp": 24.3,
-          "precipProbability": 69,
-          "precipitation": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 61,
-          "maxTemp": 27.7,
-          "minTemp": 23.4,
-          "precipProbability": 77,
-          "precipitation": 12.4
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 51,
-          "maxTemp": 26.1,
-          "minTemp": 22.9,
-          "precipProbability": 80,
-          "precipitation": 0.7
+          "weatherCode": 63,
+          "maxTemp": 25.2,
+          "minTemp": 22.8,
+          "precipProbability": 100,
+          "precipitation": 19.8
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 80,
-          "maxTemp": 27.8,
-          "minTemp": 22.2,
-          "precipProbability": 22,
-          "precipitation": 10.8
+          "weatherCode": 3,
+          "maxTemp": 30.0,
+          "minTemp": 23.0,
+          "precipProbability": 35,
+          "precipitation": 0.0
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 53,
-          "maxTemp": 30.6,
-          "minTemp": 23.1,
-          "precipProbability": 51,
-          "precipitation": 3.8
+          "weatherCode": 63,
+          "maxTemp": 26.0,
+          "minTemp": 23.6,
+          "precipProbability": 88,
+          "precipitation": 19.5
         },
         {
           "date": "2026-09-07",
           "weatherCode": 81,
-          "maxTemp": 31.4,
-          "minTemp": 23.1,
-          "precipProbability": 35,
-          "precipitation": 15.3
+          "maxTemp": 26.9,
+          "minTemp": 22.4,
+          "precipProbability": 69,
+          "precipitation": 32.8
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 51,
-          "maxTemp": 29.7,
-          "minTemp": 23.9,
-          "precipProbability": 40,
-          "precipitation": 3.0
+          "weatherCode": 80,
+          "maxTemp": 27.5,
+          "minTemp": 23.3,
+          "precipProbability": 47,
+          "precipitation": 11.8
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
+          "maxTemp": 25.9,
+          "minTemp": 21.8,
+          "precipProbability": 66,
+          "precipitation": 45.2
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 81,
+          "maxTemp": 25.2,
+          "minTemp": 21.5,
+          "precipProbability": 59,
+          "precipitation": 75.6
         }
       ]
     },
@@ -1512,60 +1512,60 @@
       "region": "中国・四国",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 31.1,
-          "minTemp": 23.8,
-          "precipProbability": 57,
-          "precipitation": 0.7
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 28.3,
-          "minTemp": 23.6,
-          "precipProbability": 90,
-          "precipitation": 32.1
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 65,
-          "maxTemp": 23.7,
-          "minTemp": 21.6,
-          "precipProbability": 94,
-          "precipitation": 25.9
+          "weatherCode": 63,
+          "maxTemp": 23.9,
+          "minTemp": 22.6,
+          "precipProbability": 100,
+          "precipitation": 27.4
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 95,
-          "maxTemp": 30.0,
-          "minTemp": 21.9,
+          "weatherCode": 51,
+          "maxTemp": 29.1,
+          "minTemp": 22.3,
           "precipProbability": 31,
-          "precipitation": 23.6
+          "precipitation": 0.1
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 81,
-          "maxTemp": 29.4,
-          "minTemp": 23.1,
-          "precipProbability": 47,
-          "precipitation": 11.1
+          "weatherCode": 65,
+          "maxTemp": 24.8,
+          "minTemp": 23.3,
+          "precipProbability": 82,
+          "precipitation": 65.1
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 81,
-          "maxTemp": 30.5,
-          "minTemp": 23.1,
-          "precipProbability": 43,
-          "precipitation": 10.8
+          "weatherCode": 95,
+          "maxTemp": 28.7,
+          "minTemp": 22.5,
+          "precipProbability": 75,
+          "precipitation": 57.78
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 51,
-          "maxTemp": 30.3,
-          "minTemp": 24.4,
-          "precipProbability": 37,
-          "precipitation": 3.6
+          "weatherCode": 95,
+          "maxTemp": 26.5,
+          "minTemp": 23.7,
+          "precipProbability": 49,
+          "precipitation": 26.0
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
+          "maxTemp": 27.4,
+          "minTemp": 24.2,
+          "precipProbability": 68,
+          "precipitation": 27.2
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 81,
+          "maxTemp": 23.9,
+          "minTemp": 21.3,
+          "precipProbability": 55,
+          "precipitation": 45.4
         }
       ]
     },
@@ -1577,60 +1577,60 @@
       "region": "中国・四国",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 53,
-          "maxTemp": 30.4,
-          "minTemp": 24.6,
-          "precipProbability": 96,
-          "precipitation": 1.8
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 65,
-          "maxTemp": 27.5,
-          "minTemp": 24.1,
-          "precipProbability": 90,
-          "precipitation": 59.5
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 65,
-          "maxTemp": 25.5,
-          "minTemp": 22.6,
+          "weatherCode": 63,
+          "maxTemp": 25.4,
+          "minTemp": 24.0,
           "precipProbability": 100,
-          "precipitation": 85.3
+          "precipitation": 55.6
         },
         {
           "date": "2026-09-05",
           "weatherCode": 53,
-          "maxTemp": 26.8,
-          "minTemp": 24.2,
-          "precipProbability": 55,
-          "precipitation": 6.9
+          "maxTemp": 27.9,
+          "minTemp": 23.5,
+          "precipProbability": 82,
+          "precipitation": 1.9
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 95,
-          "maxTemp": 28.6,
-          "minTemp": 24.8,
-          "precipProbability": 57,
-          "precipitation": 16.7
+          "weatherCode": 65,
+          "maxTemp": 27.1,
+          "minTemp": 25.1,
+          "precipProbability": 86,
+          "precipitation": 83.4
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 81,
-          "maxTemp": 30.0,
+          "weatherCode": 96,
+          "maxTemp": 28.5,
           "minTemp": 24.1,
-          "precipProbability": 48,
-          "precipitation": 8.1
+          "precipProbability": 90,
+          "precipitation": 15.75
         },
         {
           "date": "2026-09-08",
           "weatherCode": 95,
-          "maxTemp": 29.8,
-          "minTemp": 25.9,
-          "precipProbability": 36,
-          "precipitation": 8.2
+          "maxTemp": 26.9,
+          "minTemp": 24.5,
+          "precipProbability": 66,
+          "precipitation": 20.9
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 95,
+          "maxTemp": 26.7,
+          "minTemp": 24.9,
+          "precipProbability": 68,
+          "precipitation": 11.2
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 80,
+          "maxTemp": 25.3,
+          "minTemp": 23.0,
+          "precipProbability": 65,
+          "precipitation": 17.4
         }
       ]
     },
@@ -1642,60 +1642,60 @@
       "region": "中国・四国",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 61,
-          "maxTemp": 31.2,
-          "minTemp": 24.4,
-          "precipProbability": 98,
-          "precipitation": 2.8
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 26.9,
-          "minTemp": 23.9,
-          "precipProbability": 90,
-          "precipitation": 49.8
-        },
-        {
           "date": "2026-09-04",
           "weatherCode": 65,
-          "maxTemp": 24.7,
-          "minTemp": 22.6,
-          "precipProbability": 96,
-          "precipitation": 102.0
+          "maxTemp": 25.7,
+          "minTemp": 22.4,
+          "precipProbability": 100,
+          "precipitation": 101.9
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 95,
-          "maxTemp": 26.5,
-          "minTemp": 23.5,
-          "precipProbability": 49,
-          "precipitation": 53.28
+          "weatherCode": 61,
+          "maxTemp": 28.3,
+          "minTemp": 22.5,
+          "precipProbability": 88,
+          "precipitation": 3.1
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 80,
-          "maxTemp": 28.8,
-          "minTemp": 24.4,
-          "precipProbability": 66,
-          "precipitation": 6.6
+          "weatherCode": 63,
+          "maxTemp": 28.4,
+          "minTemp": 25.5,
+          "precipProbability": 90,
+          "precipitation": 18.5
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 80,
-          "maxTemp": 29.5,
-          "minTemp": 24.1,
-          "precipProbability": 51,
-          "precipitation": 6.4
+          "weatherCode": 95,
+          "maxTemp": 28.7,
+          "minTemp": 23.4,
+          "precipProbability": 80,
+          "precipitation": 11.65
         },
         {
           "date": "2026-09-08",
-          "weatherCode": 51,
-          "maxTemp": 29.1,
-          "minTemp": 25.1,
-          "precipProbability": 47,
-          "precipitation": 3.6
+          "weatherCode": 95,
+          "maxTemp": 27.2,
+          "minTemp": 25.0,
+          "precipProbability": 48,
+          "precipitation": 37.7
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 80,
+          "maxTemp": 26.8,
+          "minTemp": 24.2,
+          "precipProbability": 65,
+          "precipitation": 27.7
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 95,
+          "maxTemp": 24.2,
+          "minTemp": 22.7,
+          "precipProbability": 67,
+          "precipitation": 65.8
         }
       ]
     },
@@ -1707,60 +1707,60 @@
       "region": "九州・沖縄",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 2,
-          "maxTemp": 30.1,
-          "minTemp": 25.9,
-          "precipProbability": 100,
-          "precipitation": 0.0
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 61,
-          "maxTemp": 30.2,
-          "minTemp": 24.4,
-          "precipProbability": 63,
-          "precipitation": 2.1
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 61,
-          "maxTemp": 27.2,
-          "minTemp": 24.8,
-          "precipProbability": 86,
-          "precipitation": 2.4
+          "weatherCode": 63,
+          "maxTemp": 26.6,
+          "minTemp": 24.9,
+          "precipProbability": 100,
+          "precipitation": 28.5
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 53,
-          "maxTemp": 27.7,
-          "minTemp": 23.6,
-          "precipProbability": 25,
-          "precipitation": 1.4
+          "weatherCode": 51,
+          "maxTemp": 28.0,
+          "minTemp": 24.7,
+          "precipProbability": 65,
+          "precipitation": 0.3
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 95,
-          "maxTemp": 29.5,
-          "minTemp": 24.3,
-          "precipProbability": 57,
-          "precipitation": 15.3
+          "weatherCode": 61,
+          "maxTemp": 27.3,
+          "minTemp": 25.2,
+          "precipProbability": 70,
+          "precipitation": 14.1
         },
         {
           "date": "2026-09-07",
           "weatherCode": 53,
-          "maxTemp": 29.5,
-          "minTemp": 24.0,
-          "precipProbability": 55,
-          "precipitation": 2.5
+          "maxTemp": 27.0,
+          "minTemp": 22.7,
+          "precipProbability": 69,
+          "precipitation": 7.87
         },
         {
           "date": "2026-09-08",
           "weatherCode": 53,
-          "maxTemp": 28.1,
-          "minTemp": 24.3,
-          "precipProbability": 65,
-          "precipitation": 3.8
+          "maxTemp": 28.2,
+          "minTemp": 23.3,
+          "precipProbability": 73,
+          "precipitation": 4.7
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 55,
+          "maxTemp": 25.3,
+          "minTemp": 23.1,
+          "precipProbability": 69,
+          "precipitation": 6.4
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 95,
+          "maxTemp": 23.6,
+          "minTemp": 22.0,
+          "precipProbability": 62,
+          "precipitation": 47.2
         }
       ]
     },
@@ -1772,60 +1772,60 @@
       "region": "九州・沖縄",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 34.4,
-          "minTemp": 24.6,
-          "precipProbability": 95,
-          "precipitation": 0.3
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 63,
-          "maxTemp": 28.0,
-          "minTemp": 24.1,
-          "precipProbability": 67,
-          "precipitation": 13.7
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 65,
+          "weatherCode": 63,
           "maxTemp": 25.9,
-          "minTemp": 23.5,
-          "precipProbability": 84,
-          "precipitation": 79.1
+          "minTemp": 22.1,
+          "precipProbability": 100,
+          "precipitation": 38.5
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 81,
-          "maxTemp": 28.9,
-          "minTemp": 23.4,
-          "precipProbability": 53,
-          "precipitation": 26.95
+          "weatherCode": 63,
+          "maxTemp": 25.6,
+          "minTemp": 22.2,
+          "precipProbability": 96,
+          "precipitation": 31.8
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 96,
-          "maxTemp": 30.0,
-          "minTemp": 24.6,
-          "precipProbability": 60,
-          "precipitation": 40.2
+          "weatherCode": 63,
+          "maxTemp": 31.2,
+          "minTemp": 25.0,
+          "precipProbability": 68,
+          "precipitation": 11.8
         },
         {
           "date": "2026-09-07",
-          "weatherCode": 96,
-          "maxTemp": 31.8,
-          "minTemp": 23.7,
-          "precipProbability": 53,
-          "precipitation": 11.4
+          "weatherCode": 81,
+          "maxTemp": 29.0,
+          "minTemp": 23.0,
+          "precipProbability": 61,
+          "precipitation": 17.08
         },
         {
           "date": "2026-09-08",
           "weatherCode": 95,
-          "maxTemp": 28.3,
-          "minTemp": 24.3,
-          "precipProbability": 47,
-          "precipitation": 4.8
+          "maxTemp": 30.5,
+          "minTemp": 23.6,
+          "precipProbability": 61,
+          "precipitation": 23.7
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 80,
+          "maxTemp": 28.5,
+          "minTemp": 23.9,
+          "precipProbability": 72,
+          "precipitation": 9.0
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 95,
+          "maxTemp": 30.7,
+          "minTemp": 23.3,
+          "precipProbability": 77,
+          "precipitation": 17.4
         }
       ]
     },
@@ -1837,60 +1837,60 @@
       "region": "九州・沖縄",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 51,
-          "maxTemp": 32.8,
-          "minTemp": 26.9,
-          "precipProbability": 37,
-          "precipitation": 0.2
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 61,
-          "maxTemp": 28.3,
-          "minTemp": 26.4,
-          "precipProbability": 83,
-          "precipitation": 5.6
-        },
-        {
           "date": "2026-09-04",
           "weatherCode": 63,
           "maxTemp": 27.9,
-          "minTemp": 24.6,
-          "precipProbability": 89,
-          "precipitation": 34.4
+          "minTemp": 24.0,
+          "precipProbability": 100,
+          "precipitation": 49.3
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 95,
-          "maxTemp": 26.4,
-          "minTemp": 24.6,
-          "precipProbability": 71,
-          "precipitation": 18.63
+          "weatherCode": 63,
+          "maxTemp": 28.2,
+          "minTemp": 24.3,
+          "precipProbability": 100,
+          "precipitation": 20.3
         },
         {
           "date": "2026-09-06",
-          "weatherCode": 96,
-          "maxTemp": 28.9,
-          "minTemp": 24.6,
-          "precipProbability": 54,
-          "precipitation": 11.4
+          "weatherCode": 61,
+          "maxTemp": 30.6,
+          "minTemp": 27.5,
+          "precipProbability": 86,
+          "precipitation": 5.4
         },
         {
           "date": "2026-09-07",
           "weatherCode": 95,
-          "maxTemp": 30.2,
-          "minTemp": 24.6,
-          "precipProbability": 57,
-          "precipitation": 1.2
+          "maxTemp": 29.0,
+          "minTemp": 23.9,
+          "precipProbability": 86,
+          "precipitation": 11.3
         },
         {
           "date": "2026-09-08",
           "weatherCode": 96,
           "maxTemp": 28.6,
-          "minTemp": 24.7,
-          "precipProbability": 44,
-          "precipitation": 13.2
+          "minTemp": 24.5,
+          "precipProbability": 60,
+          "precipitation": 30.3
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 96,
+          "maxTemp": 30.2,
+          "minTemp": 24.6,
+          "precipProbability": 62,
+          "precipitation": 10.7
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 51,
+          "maxTemp": 30.2,
+          "minTemp": 24.8,
+          "precipProbability": 66,
+          "precipitation": 3.4
         }
       ]
     },
@@ -1902,60 +1902,60 @@
       "region": "九州・沖縄",
       "days": [
         {
-          "date": "2026-09-02",
-          "weatherCode": 81,
-          "maxTemp": 29.9,
-          "minTemp": 24.9,
-          "precipProbability": 69,
-          "precipitation": 10.6
-        },
-        {
-          "date": "2026-09-03",
-          "weatherCode": 95,
-          "maxTemp": 28.9,
-          "minTemp": 25.4,
-          "precipProbability": 93,
-          "precipitation": 11.5
-        },
-        {
           "date": "2026-09-04",
-          "weatherCode": 95,
-          "maxTemp": 29.3,
-          "minTemp": 26.8,
-          "precipProbability": 93,
-          "precipitation": 4.5
+          "weatherCode": 96,
+          "maxTemp": 29.2,
+          "minTemp": 26.4,
+          "precipProbability": 96,
+          "precipitation": 16.6
         },
         {
           "date": "2026-09-05",
-          "weatherCode": 51,
-          "maxTemp": 29.7,
-          "minTemp": 27.0,
-          "precipProbability": 85,
-          "precipitation": 3.8
+          "weatherCode": 95,
+          "maxTemp": 29.8,
+          "minTemp": 26.8,
+          "precipProbability": 96,
+          "precipitation": 5.3
         },
         {
           "date": "2026-09-06",
           "weatherCode": 95,
           "maxTemp": 29.3,
-          "minTemp": 26.3,
-          "precipProbability": 84,
-          "precipitation": 11.1
+          "minTemp": 25.7,
+          "precipProbability": 93,
+          "precipitation": 4.9
         },
         {
           "date": "2026-09-07",
           "weatherCode": 53,
-          "maxTemp": 28.9,
-          "minTemp": 25.2,
-          "precipProbability": 83,
-          "precipitation": 8.4
+          "maxTemp": 29.4,
+          "minTemp": 27.0,
+          "precipProbability": 88,
+          "precipitation": 4.6
         },
         {
           "date": "2026-09-08",
           "weatherCode": 51,
+          "maxTemp": 29.1,
+          "minTemp": 26.8,
+          "precipProbability": 81,
+          "precipitation": 2.1
+        },
+        {
+          "date": "2026-09-09",
+          "weatherCode": 51,
+          "maxTemp": 29.5,
+          "minTemp": 25.6,
+          "precipProbability": 69,
+          "precipitation": 1.8
+        },
+        {
+          "date": "2026-09-10",
+          "weatherCode": 51,
           "maxTemp": 29.6,
           "minTemp": 26.7,
-          "precipProbability": 67,
-          "precipitation": 1.6
+          "precipProbability": 81,
+          "precipitation": 1.8
         }
       ]
     }
